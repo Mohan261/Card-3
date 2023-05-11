@@ -32,7 +32,7 @@ h3{
 }
 .card__container{
     width:100%;
-    height:120vh;
+    height:725px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,9 @@ h3{
     margin-top: 25px;
     width:95px;
     height:95px;
-    border:5px solid #A600B8;
+    border:none;
+	outline:2px solid #A600B8;
+	outline-offset:5px;
     border-radius: 65px;
     display: flex;
     justify-content: center;
@@ -130,8 +132,9 @@ h3{
     align-items: left;
     flex-wrap: wrap;
 }
-span{
+button{
     border:2px solid;
+	background-color:transparent;
     padding:4px 8px;
     height:30px;
 }
